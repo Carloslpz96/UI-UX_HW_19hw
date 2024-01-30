@@ -14,13 +14,13 @@
                 <nav class="inline-block">
                     <ul>
                         <li>
-                            <a href="skills.html">Skills</a>
+                            <a href="#aboutsection" style="background-color: black;">About</a>
                         </li>
                         <li>
-                            <a href="work.html">Work</a>
+                            <a href="#skillssection">Skills</a>
                         </li>
                         <li>
-                            <a href="index.html">About</a>
+                            <a href="#worksection">Work</a>
                         </li>
                     </ul>
                 </nav>
@@ -28,20 +28,63 @@
             </div>
            </div> 
         </header>
-        <section>
+        <section class="about" id="aboutsection">
         <heroimg>
             <img src="images/picofme.png" alt="Picture of CarlosL" width="300" height="300"></img>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</p>
             <button> Download Resume </button>
         </heroimg>
-        <footer>
+        </section>
+        <section class="mySkills" id="skillssection">
+            <h1> My Skills</h1>
+            <div class="flexContainer">
+                <div class="skill1">
+                    <H4>Skill 1</H4>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</P>
+                </div>
+                <div class="skill2">
+                    <H4>Skill 2</H4>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</P>
+                </div>
+                <div class="skill3">
+                    <H4>Skill 3</H4>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</P>
+                </div>
+            </div>
+            </section>
+            <section class="myWork" id="worksection">
+                <h1>My Work</h1>
+                <div class="workGrid">
+                    <div class="work1" style="padding-left: 200px; padding-bottom: 20px;">
+                        <h4>DishDive</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</p>
+                        <button id="work1button">View Project</button>
+                    </div class="work1" style="padding-left: 200px; padding-bottom: 20px;"> 
+                    <div class="work2" style="padding-left: 200px; padding-bottom: 20px;">
+                        <h4>Cross-Culturalist</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</p>
+                        <button>View Project</button>
+                    </div>
+                    <div class="work3" style="padding-left: 200px;padding-bottom: 20px;">
+                        <h4>Chicago Reader</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</p>
+                        <button>View Project</button>
+                    </div>
+                </div>
+            </section>
+        <footer style="padding-top: .5px; padding-bottom: .5px; align-items: center;">
             <ul>
-                <li class="inline-block"> Contact Me at Me@Carloslpz.com</li>
-                <li class="inline-block"> Instagram</li>
-                <li class="inline-block"> Youtube</li>
-                <li class="inline-block"> LinkedIn</li>
+                <div class="emailbutton">
+                <li class="emailbuttontext"> Contact Me at Me@Carloslpz.com</li>
+                </div>
+                <div class="socialmedia">
+                <li class="socialmediabuttons"> <img src="images/Instagram.png" alt="Instagram"></li>
+                <li class="socialmediabuttons"> <img src="images/YouTube.png" alt="Youtube"></li>
+                <li class="socialmediabuttons"> <img src="images/LinkedIn.png" alt="LinkedIn"></li>
+                </div>
             </ul>
         </section>
         </footer>
     </body>
+    <script src="js/index.js"></script>
 </html>
