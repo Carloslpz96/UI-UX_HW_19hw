@@ -1,5 +1,6 @@
 <link>
 
+
 .socialmedia {
     display: inline-block
     justify-content: space-evenly;
@@ -58,20 +59,39 @@ body {
     align-items: center;
 }
 
-heroimg {
-    height: 1500px;
+.flexContainer > div {
+    background-color: #f1f1f1;
+    margin: 10px;
     padding: 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.about p{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 65px;
+    text-align: left;
+}
+heroimg {
     background-size: cover;
+    display: flex;
+    flex-direction:row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
  
 heroimg img{
     align-items: center;
     justify-content: center;
-    margin-top: 130px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 heroimg p {
@@ -173,15 +193,13 @@ text-align: center;
 border-style: dotted;
 }
 
-.flexContainer{ 
+.flexContainer { 
 display: flex;
-flex-direction: row;
-gap: 15px;
 text-align: center;
-margin-right: 15%;
-margin-left: 15%;
 justify-content: space-evenly;
-margin-bottom: 10px; 
+border-radius: 10px;
+margin-left: 40px;
+margin-right: 40px;
 }
 
 .skill1 {
@@ -261,12 +279,15 @@ color: white;
 justify-content:space-around;    
 }
 
+.test { 
+    background-color: black;
+}
+
 ul {
 font-family: "puffin-arcade-chrome", sans-serif;
 font-weight: 800;
 font-style: normal;
 font-size: 24px;
-color: white;
 list-style: none;
 }
 
@@ -327,8 +348,15 @@ margin-left: 80px;
 }
 
 .myWork h1{
+border-radius: 10px;
+border: 1px solid white;
+border-width: 2px;
+display: inline-block;
+background-color: black;
 text-align: center;
-margin-bottom: 5px;
+border-style: dotted;
+margin-left: 500px;
+margin-right: 500px;
 }
 
 .myWork h3{
@@ -337,9 +365,10 @@ text-align: center;
 }
 
 .work1{
-    border: #000;
+    border: black;
     border-radius: 10px;
     border-style: double;
+    background-color: white;
 }
 
 .work1:hover {
@@ -358,15 +387,19 @@ text-align: center;
 }
 
 .work2{
-    border: #000;
+    border: black;
     border-radius: 10px;
     border-style: double;
+    background-color: white;
+
 }
 
 .work3{
-    border: #000;
+    border: black;
     border-radius: 10px;
     border-style: double;
+    background-color: white;
+
 }
 
 
@@ -400,12 +433,18 @@ html {
     border-bottom-width: #000 3px;
     border-bottom-style: groove;
     border-bottom-color: black;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .mySkills {
     border-bottom-width: #000 3px;
     border-bottom-style: groove;
     border-bottom-color: black;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 :visited {

@@ -4,22 +4,23 @@
         <title>Carloslpz Website</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://use.typekit.net/pls8ffx.css">
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     </head>
     <body>
         <header class="navigation">
           <div class="Logo">
-               <h1> CARLOS L</h1>
+               <h1 class="logotext"> CARLOS L</h1>
          </div class="Logo">
             <div class="inline-block">   
                 <nav class="inline-block">
                     <ul>
-                        <li>
+                        <li class="star">
                             <a href="#aboutsection" style="background-color: black;">About</a>
                         </li>
-                        <li>
+                        <li class="star">
                             <a href="#skillssection">Skills</a>
                         </li>
-                        <li>
+                        <li class="star">
                             <a href="#worksection">Work</a>
                         </li>
                     </ul>
@@ -28,13 +29,16 @@
             </div>
            </div> 
         </header>
+       
         <section class="about" id="aboutsection">
-        <heroimg>
-            <img src="images/picofme.png" alt="Picture of CarlosL" width="300" height="300"></img>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</p>
-            <button> Download Resume </button>
-        </heroimg>
+            <div class="flexContainer">
+                <div><img src="images/picofme.png" alt="Picture of CarlosL" width="300" height="300"></img></div>
+                <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a ultricies odio, vitae dapibus metus. Integer elementum lacus vel sapien.</p> 
+                <br>
+                <button> Download Resume </button> </div>
+            </div>
         </section>
+
         <section class="mySkills" id="skillssection">
             <h1> My Skills</h1>
             <div class="flexContainer">
@@ -52,6 +56,7 @@
                 </div>
             </div>
             </section>
+
             <section class="myWork" id="worksection">
                 <h1>My Work</h1>
                 <div class="workGrid">
@@ -75,12 +80,12 @@
         <footer style="padding-top: .5px; padding-bottom: .5px; align-items: center;">
             <ul>
                 <div class="emailbutton">
-                <li class="emailbuttontext"> Contact Me at Me@Carloslpz.com</li>
+                <li class="emailbuttontext star"> Contact Me at Me@Carloslpz.com</li>
                 </div>
                 <div class="socialmedia">
-                <li class="socialmediabuttons"> <img src="images/Instagram.png" alt="Instagram"></li>
-                <li class="socialmediabuttons"> <img src="images/YouTube.png" alt="Youtube"></li>
-                <li class="socialmediabuttons"> <img src="images/LinkedIn.png" alt="LinkedIn"></li>
+                <li class="socialmediabuttons star"> <img src="images/Instagram.png" alt="Instagram"></li>
+                <li class="socialmediabuttons star"> <img src="images/YouTube.png" alt="Youtube"></li>
+                <li class="socialmediabuttons star"> <img src="images/LinkedIn.png" alt="LinkedIn"></li>
                 </div>
             </ul>
         </section>
